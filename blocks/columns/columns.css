@@ -21,7 +21,6 @@
 
 @media (width >= 900px) {
   .columns > div {
-    align-items: center;
     flex-direction: unset;
     gap: 32px;
   }
@@ -29,5 +28,15 @@
   .columns > div > div {
     flex: 1;
     order: unset;
+  }
+}
+
+.columns {
+  h2 {
+    margin:0;
+  }
+
+  p {
+    margin:0;
   }
 }
